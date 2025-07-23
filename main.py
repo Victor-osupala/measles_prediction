@@ -6,7 +6,7 @@ import os
 from PIL import Image
 
 # Load model and scaler
-MODEL_DIR = "measles_model_output"
+MODEL_DIR = "measles_models"
 model = joblib.load(os.path.join(MODEL_DIR, "measles_model.pkl"))
 scaler = joblib.load(os.path.join(MODEL_DIR, "scaler.pkl"))
 
